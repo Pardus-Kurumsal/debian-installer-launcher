@@ -1,3 +1,9 @@
+debian-installer-launcher (27pardus1) pardus; urgency=medium
+
+  * Add drone.yml
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 09 Feb 2017 11:21:27 +0300
+
 debian-installer-launcher (27) unstable; urgency=medium
 
   [ Paul Wise ]
