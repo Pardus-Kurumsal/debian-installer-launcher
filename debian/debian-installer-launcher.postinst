@@ -2,6 +2,19 @@
 
 set -e
 
+if [ ! -d "/etc/skel/Masaüstü" ]; then
+    echo "Creating Masaüstü directory"
+    mkdir -p /etc/skel/Masaüstü
+fi
+
+if [ -f "/usr/share/applications/debian-installer-launcher.desktop" ]; then
+    echo "Copying debian-installer-launcher.desktop file into /etc/skel/Masaüstü/"
+    cp -Rf /usr/share/applications/debian-installer-launcher.desktop /etc/skel/Masaüstü/debian-installer-launcher.desktop
+    chmod 755 /etc/skel/Masaüstü/debian-installer-launcher.desktop
+else
+    echo "Could not find debian-installer-launcher.desktop file under /usr/share/applications/"
+fi
+
 . /usr/share/debconf/confmodule
 
 #DEBHELPER#
