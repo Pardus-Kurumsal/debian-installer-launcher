@@ -1,3 +1,9 @@
+debian-installer-launcher (27pardus3) pardus; urgency=medium
+
+  * Modify postinst script in order to copy desktop file into live user desktop
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 14 Feb 2017 15:27:47 +0300
+
 debian-installer-launcher (27pardus2) pardus; urgency=medium
 
   * Change .desktop file for Pardus
