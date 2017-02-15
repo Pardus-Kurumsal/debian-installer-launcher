@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+if [ -f "/etc/skel/Masaüstü/debian-installer-launcher.desktop" ]; then
+    echo "Removing Masaüstü directory from /etc/skel"
+    rm -rf /etc/skel/Masaüstü
+fi
