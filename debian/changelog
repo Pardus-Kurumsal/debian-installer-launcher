@@ -1,3 +1,9 @@
+debian-installer-launcher (27pardus4) pardus; urgency=medium
+
+  * Add prerm file in order to clean up the .desktop file from all users' desktop
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 15 Feb 2017 13:14:32 +0300
+
 debian-installer-launcher (27pardus3) pardus; urgency=medium
 
   * Modify postinst script in order to copy desktop file into live user desktop
