@@ -1,3 +1,9 @@
+debian-installer-launcher (27pardus5) pardus; urgency=medium
+
+  * Update prerm file for previously created users
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 15 Feb 2017 15:31:48 +0300
+
 debian-installer-launcher (27pardus4) pardus; urgency=medium
 
   * Add prerm file in order to clean up the .desktop file from all users' desktop
